@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</tr>
 					<tr>
 						<td>LUAS</td>
-						<td><input type="number" name="hasil" value="<?= isset($luas) ? $luas : 0 ?>" readonly></td>
+						<td><input type="text" name="hasil" value="<?= isset($luas) ? md5($luas) : 0 ?>" readonly></td>
 					</tr>
 					<tr>
 						<td>
