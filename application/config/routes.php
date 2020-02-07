@@ -53,4 +53,10 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['home'] = 'C_Home';
+$route['helper'] = 'C_helper';
+$route['helper/url'] = 'C_helper/url';
+$route['helper/url/base_url'] = 'C_helper/base_url';
+$route['helper/url/site_url'] = 'C_helper/site_url';
+$route['helper/post'] = 'C_helper/post';
+
 

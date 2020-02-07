@@ -66,7 +66,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 </head>
 <body>
+<?php
 
+$hai = auto_typography("hai\<br />asdasd'");
+
+echo $hai;
+
+?>
 <div id="container">
 	<h1>LUAS PERSEGI PAJANG</h1>
 

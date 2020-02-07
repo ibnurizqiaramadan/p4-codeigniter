@@ -7,6 +7,7 @@ class Welcome extends CI_Controller {
     {
 		parent::__construct();
 		$this->load->model('M_Welcome');
+		$this->load->helper('typography');
     }
 
 	public function index()
