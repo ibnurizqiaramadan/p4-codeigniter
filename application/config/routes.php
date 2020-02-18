@@ -58,5 +58,20 @@ $route['helper/url'] = 'C_helper/url';
 $route['helper/url/base_url'] = 'C_helper/base_url';
 $route['helper/url/site_url'] = 'C_helper/site_url';
 $route['helper/post'] = 'C_helper/post';
+$route['news'] = 'news/C_news';
+$route['news/(:any)'] = 'news/C_news/viewNews/$1';
+$route['news/data/create'] = 'news/C_news/createNews';
+$route['news/data/(:any)/edit'] = 'news/C_news/editNews';
+$route['news/data/(:any)/delete'] = 'news/C_news/delete';
+$route['news/data/store'] = 'news/C_news/store';
+$route['news/data/storeEdit'] = 'news/C_news/storeEdit';
+$route['barang'] = 'barang/C_barang';
+$route['barang/pesan'] = 'barang/C_barang/pesan';
+$route['barang/checkout'] = 'barang/C_barang/checkout';
+$route['barang/store'] = 'barang/C_barang/store';
+$route['barang/editStore'] = 'barang/C_barang/editStore';
+$route['barang/(:any)/delete'] = 'barang/C_barang/delete';
+$route['pesan/(:any)/edit'] = 'barang/C_barang/edit';
+
 
 
