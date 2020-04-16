@@ -74,8 +74,10 @@ $route['barang/(:any)/delete'] = 'barang/C_barang/delete';
 $route['pesan/(:any)/edit'] = 'barang/C_barang/edit';
 $route['barang1'] = 'C_barang';
 $route['kalender'] = 'C_calendar';
-$route['kalender/haribesar'] = 'C_calendar/hariBesar';
+$route['kalender/(:any)/(:any)'] = 'C_calendar';
 $route['kalender/infohari/(:any)/(:any)/(:any)'] = 'C_calendar/infohari/$1/$2/$3';
+$route['kalender/pdf/(:any)/(:any)/(:any)'] = 'C_calendar/pdf/$1/$2/$3';
+$route['upload'] = 'C_upload';
 
 
 
